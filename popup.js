@@ -1,5 +1,3 @@
-// const { changeConfirmLocale } = require("antd/lib/modal/locale")
-
 document.addEventListener('DOMContentLoaded', function (){
   document.querySelector('button').addEventListener('click',onclick, false)
   function onclick(){
@@ -10,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function (){
   }
 
   function setCount(res){
-    const div = document.createElement('div')
+    const div = document.getElementById('detection')
     div.textContent =  `${res.count} islam`
     document.body.appendChild(div)
   }
