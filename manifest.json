@@ -1,0 +1,28 @@
+{
+  "name":"Islamophobia Detector",
+  "version": "1.0",
+  "description": "Protection from Islamophobic content",
+  "manifest_version": 2,
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action":{
+    "default_popup": "popup.html",
+    "default_icon":{
+      "16": "images/muslim_icon.png",
+      "32": "images/muslim_icon.png",
+      "48": "images/muslim_icon.png",
+      "128": "images/muslim_icon.png"
+    },
+    "default_title": "Islamophobic Detector"
+  },
+  "icons":{
+    "16": "images/muslim_icon.png",
+    "32": "images/muslim_icon.png",
+    "48": "images/muslim_icon.png",
+    "128": "images/muslim_icon.png"
+  }
+}
