@@ -1,0 +1,19 @@
+body{
+  min-width: 20em;
+  text-align: center;
+  padding: 0.5em;
+  background: #D2B4DA;
+  display: grid;
+  place-items: center;
+}
+button {
+  height: 2rem;
+  width: 12em;
+  background-color: #F33E3E;
+  border: none;
+  border-radius: 1em;
+  margin: 0.2em;
+}
+#filter{
+  background-color: #eeeeee;
+}

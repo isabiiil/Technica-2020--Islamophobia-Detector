@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', function (){
 
   function setCount(res){
     const div = document.getElementById('detection')
-    div.textContent =  `${res.count} islam`
-    document.body.appendChild(div)
+    const img = document.getElementById('detect-img')
+    if(res.count){
+      div.textContent =  'Sensitive content found'
+      img.src="images/warning.png"
+    }
   }
 }, false)

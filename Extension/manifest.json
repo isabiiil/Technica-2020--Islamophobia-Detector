@@ -1,6 +1,9 @@
 {
   "name":"Islamophobia Detector",
   "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
   "description": "Protection from Islamophobic content",
   "manifest_version": 2,
   "content_scripts":[
